@@ -6,7 +6,7 @@ lab:
 
 # Vue d’ensemble
 
-Dans ce labo, vous découvrez comment implémenter un workflow GitHub Actions qui déploie une application web sur Azure App Service.
+Dans ce labo, vous découvrirez comment implémenter un workflow GitHub Actions qui déploie une application web sur Azure App Service.
 
 À la fin de ce labo, vous serez en mesure d’effectuer les tâches suivantes :
 

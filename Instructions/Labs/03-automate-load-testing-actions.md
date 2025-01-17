@@ -27,7 +27,7 @@ Dans ce labo, vous allez :
 
 ## Instructions
 
-## Exercice 1 : importer l’exemple d’application dans votre référentiel GitHub
+## Exercice 1 : importer l’exemple d’application dans votre référentiel GitHub
 
 Dans cet exercice, vous allez importer l’[exemple d’application de test de charge Azure](https://github.com/MicrosoftLearning/azure-load-test-sample-app) dans votre propre compte GitHub.
 
@@ -182,15 +182,15 @@ Dans cette tâche, vous ajoutez des secrets à votre référentiel pour permettr
 
     | Nom | Secret |
     |--|--|
-    | AZURE_CLIENT_ID | Entrez l’**ID d’application (client)** que vous avez enregistré précédemment dans le labo. |
-    | AZURE_TENANT_ID | Entrez l’**ID de répertoire (locataire)** que vous avez enregistré précédemment dans le labo. |
-    | AZURE_SUBSCRIPTION_ID | Entrez la valeur d’ID d’abonnement que vous avez enregistrée précédemment dans le labo. |
+    | `AZURE_CLIENT_ID` | Entrez l’**ID d’application (client)** que vous avez enregistré précédemment dans le labo. |
+    | `AZURE_TENANT_ID` | Entrez l’**ID de répertoire (locataire)** que vous avez enregistré précédemment dans le labo. |
+    | `AZURE_SUBSCRIPTION_ID` | Entrez la valeur d’ID d’abonnement que vous avez enregistrée précédemment dans le labo. |
 
 ### Tâche 2 : déployer l’application web
 
 1. Sélectionnez le fichier *deploy.yml* dans le dossier *.github/workflows*.
 
-1. Modifiez le fichier puis, dans la section **env:**, modifiez la valeur de la variable `AZURE_WEB_APP`. Remplacez `<your web app name>**` par le nom de l’application web créée précédemment dans ce labo. Validez votre modification.
+1. Modifiez le fichier puis, dans la section **env:**, modifiez la valeur de la variable `AZURE_WEB_APP`. Remplacez `<your web app name>` par le nom de l’application web créée précédemment dans ce labo. Validez votre modification.
 
 1. Prenez le temps de passer en revue le contenu du workflow.
 
