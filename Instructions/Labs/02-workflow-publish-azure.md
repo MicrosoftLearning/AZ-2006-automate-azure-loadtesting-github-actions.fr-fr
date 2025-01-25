@@ -97,7 +97,7 @@ Dans cette tâche, vous allez créer un groupe de ressources et un principal de 
     ```
     rgId=$(az group show -n az2006-rg --query "id" -o tsv)
 
-    az ad sp create-for-rbac --name GH-Action-eshoponweb --role contributor --scopes $rgId
+    az ad sp create-for-rbac --name GH-Action-eshoponweb --role contributor --scopes $rgId --json-auth true
     ```
 
     >**IMPORTANT :** cette commande génère un objet JSON qui contient les identificateurs utilisés pour s’authentifier auprès d’Azure dans le nom d’une identité Microsoft Entra (principal de service). Copiez l’objet JSON pour l’utiliser dans les étapes suivantes. 
