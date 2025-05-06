@@ -1,26 +1,14 @@
 ---
-title: Instructions hébergées en ligne
+title: "Automatiser le test de charge Azure avec GitHub\_Actions"
 permalink: index.html
 layout: home
 ---
 
-# Répertoire de contenu
+Les exercices suivants constituent un apprentissage pratique de l’implémentation des actions et des workflows GitHub visant à automatiser l’exécution d’un test de charge avec Test de charge Azure. 
 
-La section suivante contient des liens hypertexte vers chacun des exercices de labo.
+## Exercices
+<hr/>
 
-## Laboratoires
 
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| Module | Laboratoire |
-| --- | --- | 
-{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
-
-<!-- ## Demos
-
-{% assign demos = site.pages | where_exp:"page", "page.url contains '/Instructions/Demos'" %}
-| Module | Demo |
-| --- | --- | 
-{% for activity in demos  %}| {{ activity.demo.module }} | [{{ activity.demo.title }}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
- -->
+{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %} {% for activity in labs  %}
+* [{{ activity.lab.title }}]({{ site.github.url }}{{ activity.url }}) <br/> {{ activity.lab.description }} {% endfor %}
