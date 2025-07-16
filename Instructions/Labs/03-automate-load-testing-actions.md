@@ -218,7 +218,7 @@ Si le wokflow ne s’exécute pas correctement, sélectionnez le workflow **Gén
 
     >**Remarque :** l’exécution du workflow peut prendre 5 à 10 minutes. Le test s’exécute pendant deux minutes. La mise en file d’attente et le démarrage du test de charge dans Azure peuvent prendre plusieurs minutes. 
 
-Si le wokflow ne s’exécute pas correctement, sélectionnez le workflow **Générer et publier**, puis sélectionnez **générer** sur l’écran suivant. Cette opération fournit des informations détaillées sur le workflow et peut aider à diagnostiquer le problème qui l’a empêché de s’exécuter correctement.
+Si le workflow ne s’exécute pas correctement, sélectionnez le workflow **Test de charge**, puis **Générer** sur l’écran suivant. Cette opération fournit des informations détaillées sur le workflow et peut aider à diagnostiquer le problème qui l’a empêché de s’exécuter correctement.
 
 #### Facultatif
 
